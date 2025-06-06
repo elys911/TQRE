@@ -20,4 +20,4 @@ Author
 
 Created by Elys del Luna, under the moonlight.
 
-> “¿Buscando una luz que no deslumbre, pero que ilumine.?”
+> “La luz no sólo se puede ver sino también sentir"
