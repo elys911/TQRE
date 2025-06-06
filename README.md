@@ -8,11 +8,6 @@ Access the Project
 - [View Examples](https://gateway.lighthouse.storage/ipfs/bafkreicdruj7xoijsqujy2bru4afm4owmsdhiqo2j223f5oapk4tnhrcfa)
 
 
-Donation
-
-If you find value in this light:
-0xb495d4747d633fbde15ac360cafdf1c0b779bdd9
-
 Author
 
 Created by Elys del Luna, under the moonlight.
