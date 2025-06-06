@@ -79,14 +79,32 @@
     .donate:hover {
       background-color: #222;
     }
+    .bgm-toggle {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      font-size: 1.2em;
+      color: #00ffcc;
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 8px 10px;
+      cursor: pointer;
+      z-index: 999;
+    }
+    .bgm-toggle:hover {
+      background-color: #222;
+    }
   </style>
 </head>
 <body>
 
-  <audio autoplay loop>
+  <audio id="bgm" autoplay loop>
     <source src="ambient.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
+
+  <div class="bgm-toggle" onclick="toggleBGM()">🌙</div>
 
   <h1>TQRE</h1>
   <h2>Transcendental Quantum Resonance Equation</h2>
@@ -107,6 +125,21 @@
   <div class="donate">
     Donate: <a href="https://etherscan.io/address/0xb495d4747d633fbde15ac360cafdf1c0b779bdd9" target="_blank">0xb495...bdd9</a>
   </div>
+
+  <script>
+    const bgm = document.getElementById("bgm");
+    const toggleIcon = document.querySelector(".bgm-toggle");
+
+    function toggleBGM() {
+      if (bgm.paused) {
+        bgm.play();
+        toggleIcon.textContent = "🌙";
+      } else {
+        bgm.pause();
+        toggleIcon.textContent = "🔇";
+      }
+    }
+  </script>
 
 </body>
 </html>
