@@ -13,11 +13,15 @@
       font-family: 'Georgia', serif;
       color: #f2f2f2;
       text-align: center;
-      background-image: url("world.jpg");
+
+      /* Inilah kunci agar fullscreen & tidak putih */
+      background-color: #000; /* fallback untuk ruang kosong */
+      background-image: url("world.jpg"); /* sesuaikan nama file */
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
+
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -53,11 +57,10 @@
       background-color: rgba(255, 255, 255, 0.1);
     }
 
-    /* RESPONSIVE: atur ulang heading agar tidak terlalu besar di HP */
+    /* Responsif agar tetap rapi di HP */
     @media (max-width: 600px) {
       h1 {
         font-size: 1.8em;
-        margin: 20px;
       }
       .btn {
         font-size: 1em;
@@ -65,7 +68,6 @@
       }
     }
 
-    /* Tambahan jika gambar tetap terlalu pendek di HP portrait */
     @media screen and (max-aspect-ratio: 3/4) {
       html, body {
         background-position: top center;
