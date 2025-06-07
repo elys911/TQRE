@@ -2,33 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Examples — TQRE</title>
   <style>
     html, body {
       height: 100%;
       margin: 0;
       padding: 0;
-      overflow: hidden;
       font-family: 'Georgia', serif;
-      background-image: url("world.jpg");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
       color: #f2f2f2;
       text-align: center;
-    }
-
-    body {
+      background-image: url("world.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
+      align-items: center;
+      overflow: hidden;
     }
 
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 20px;
+      font-size: 3vw;
+      margin-bottom: 30px;
       text-shadow: 0 2px 4px #000;
     }
 
@@ -52,6 +50,25 @@
 
     .btn:hover {
       background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* RESPONSIVE: atur ulang heading agar tidak terlalu besar di HP */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8em;
+        margin: 20px;
+      }
+      .btn {
+        font-size: 1em;
+        padding: 10px 20px;
+      }
+    }
+
+    /* Tambahan jika gambar tetap terlalu pendek di HP portrait */
+    @media screen and (max-aspect-ratio: 3/4) {
+      html, body {
+        background-position: top center;
+      }
     }
   </style>
 </head>
