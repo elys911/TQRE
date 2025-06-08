@@ -13,25 +13,29 @@
       font-family: 'Georgia', serif;
       color: #f2f2f2;
       text-align: center;
-      background-color: #000;
       overflow: hidden;
     }
 
-    canvas {
+    /* VIDEO BACKGROUND */
+    #bg-video {
       position: fixed;
       top: 0;
       left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
       z-index: -1;
+      filter: brightness(0.6); /* Redupkan video agar teks kontras */
     }
 
+    /* KONTEN */
     body {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 30px;
-      opacity: 0;
-      animation: fadeIn 2s ease forwards;
+      padding: 20px;
     }
 
     h1 {
@@ -61,12 +65,14 @@
       background-color: rgba(255, 255, 255, 0.1);
     }
 
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-      }
+    .back-home {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      font-size: 0.9em;
     }
 
+    /* RESPONSIVE */
     @media (max-width: 600px) {
       h1 {
         font-size: 1.8em;
@@ -76,67 +82,22 @@
         padding: 10px 20px;
       }
     }
-
-    .back-home {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      font-size: 0.9em;
-    }
   </style>
 </head>
 <body>
-  <canvas id="stars"></canvas>
+  <!-- VIDEO BACKGROUND -->
+  <video autoplay muted loop id="bg-video">
+    <source src="341s.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-  <h1>🧠 View Examples</h1>
+  <h1>View Examples</h1>
 
   <div class="example-links">
     <a href="https://gateway.lighthouse.storage/ipfs/bafkreicdruj7xoijsqujy2bru4afm4owmsdhiqo2j223f5oapk4tnhrcfa" class="btn" target="_blank">Example 1</a>
     <a href="https://gateway.lighthouse.storage/ipfs/bafkreidkdvoyl5ujge4ccslkg7t3nrzdgbolfmhllsrmodklbjv33lu2my" class="btn" target="_blank">Example 2</a>
   </div>
 
-  <a href="index.html" class="btn back-home">← Return </a>
-
-  <script>
-    // Bintang bergerak
-    const canvas = document.getElementById('stars');
-    const ctx = canvas.getContext('2d');
-    let stars = [];
-
-    function resizeCanvas() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    }
-
-    window.addEventListener('resize', resizeCanvas);
-    resizeCanvas();
-
-    for (let i = 0; i < 150; i++) {
-      stars.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        radius: Math.random() * 1.5,
-        speed: Math.random() * 0.5 + 0.2,
-      });
-    }
-
-    function drawStars() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = 'white';
-      for (let star of stars) {
-        ctx.beginPath();
-        ctx.arc(star.x, star.y, star.radius, 0, 2 * Math.PI);
-        ctx.fill();
-        star.y += star.speed;
-        if (star.y > canvas.height) {
-          star.y = 0;
-          star.x = Math.random() * canvas.width;
-        }
-      }
-      requestAnimationFrame(drawStars);
-    }
-
-    drawStars();
-  </script>
+  <a href="index.html" class="btn back-home">← Return</a>
 </body>
 </html>
