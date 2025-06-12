@@ -28,6 +28,7 @@ To understand how TQRE can be applied or imagined, visit the examples below:
 
 - [Example 1 (IPFS)](https://gateway.lighthouse.storage/ipfs/bafkreicdruj7xoijsqujy2bru4afm4owmsdhiqo2j223f5oapk4tnhrcfa)
 - [Example 2 (IPFS)](https://gateway.lighthouse.storage/ipfs/bafkreidkdvoyl5ujge4ccslkg7t3nrzdgbolfmhllsrmodklbjv33lu2my)
+- [Example 3 (IPFS)](https://tan-just-marlin-987.mypinata.cloud/ipfs/bafybeidxcy4ubexk5lhehwwntwzg4u5e43jx7yephfrvsyu5akcuydh7yq
 
 
 For Whom?
