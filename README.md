@@ -1,75 +1,85 @@
 # TQRE — Transcendental Quantum Resonance Equation
 
-**Status:** Open-source philosophical experiment  
-**Domain:** Logic · Physics · Perception · Transcendence
+**Status:** Open-source symbolic framework  
+**Domains:** Logic · Coherence · Resonance · Temporal Structure
 
 ---
 
 ## What is TQRE?
 
-TQRE (Transcendental Quantum Resonance Equation) is not just a mathematical construct —  
-it is a bridge between observable phenomena and non-observable causes.
+TQRE is not merely a formula —  
+it's an attempt to **capture transformation through intention**,  
+to map how systems don't just react, but resonate.
 
-It seeks to define **light** not merely as a physical medium,  
-but as a **logical intersection between form and meaning**.
+This equation seeks to unite symbolic input, temporal decay, and coherence alignment (η),  
+into a structure where resonance is no longer passive, but conditional.
 
 ---
 
 ## Why?
 
-Because some questions can't be answered by data alone.  
-Because some truths exist between wavelengths of logic and whispers of the unseen.  
-Because **understanding light** means **understanding existence itself.**
+Because not all systems respond to energy —  
+some respond only to meaning.
+
+TQRE explores the idea that **resonance is permission**,  
+not push.  
+It emerges only when time, form, and intent align.
 
 ---
 
-## Formula
+## 📘 Formula Viewer
 
-🔗 [View Core Formula on IPFS](https://gateway.lighthouse.storage/ipfs/bafkreif462bebw66vrqzrywfi4vg3qtl6s7pbe3nu2twac74aefjbgmsbq)
+Explore both versions of the equation:
 
-The formula is experimental, intuitive, and open to reinterpretation.  
-This is not a rigid law — this is a **living equation.**
+- 🔗 [TQRE 1.0 (Original Formulation)](https://gateway.lighthouse.storage/ipfs/bafkreif462bebw66vrqzrywfi4vg3qtl6s7pbe3nu2twac74aefjbgmsbq)  
+- 🔗 [TQRE 2.0 (Refactored Intent-Based)](https://gateway.lighthouse.storage/ipfs/bafkreif36knrwzuh5uhfu6gfk6gyeouapnh3s4yq5mxxwsh4nc65h6uvhm)  
+- 🌌 [View via Formula Portal](https://elys911.github.io/tqre/formula.html)
 
 ---
 
 ## Examples
 
-To explore how TQRE can be applied or imagined, visit the examples below:
+Use cases and conceptual implementations:
 
-- [Example 1 (IPFS)](https://gateway.lighthouse.storage/ipfs/bafkreicdruj7xoijsqujy2bru4afm4owmsdhiqo2j223f5oapk4tnhrcfa)
-- [Example 2 (IPFS)](https://gateway.lighthouse.storage/ipfs/bafkreidkdvoyl5ujge4ccslkg7t3nrzdgbolfmhllsrmodklbjv33lu2my)
-- [Example 3 (IPFS)](https://tan-just-marlin-987.mypinata.cloud/ipfs/bafybeidxcy4ubexk5lhehwwntwzg4u5e43jx7yephfrvsyu5akcuydh7yq)
+- [Example 1 — Symbolic Response Curve](https://gateway.lighthouse.storage/ipfs/bafkreicdruj7xoijsqujy2bru4afm4owmsdhiqo2j223f5oapk4tnhrcfa)  
+- [Example 2 — η-Fluctuation in Real Time](https://gateway.lighthouse.storage/ipfs/bafkreidkdvoyl5ujge4ccslkg7t3nrzdgbolfmhllsrmodklbjv33lu2my)  
+- [Example 3 — Cognitive Echo](https://tan-just-marlin-987.mypinata.cloud/ipfs/bafybeidxcy4ubexk5lhehwwntwzg4u5e43jx7yephfrvsyu5akcuydh7yq)
 
 ---
 
 ## For Whom?
 
-- For thinkers who feel misplaced in common academia.  
-- For physicists who see poetry in equations.  
-- For mystics who crave formal structures.  
-- For those who look at the stars and whisper, *"I know you're trying to tell me something."*
+- For scientists who wonder what symbols feel like.  
+- For poets who suspect intention has structure.  
+- For analysts who believe some logic hides behind the unseen.  
+- For anyone who hears a signal inside the silence.
 
 ---
 
 ## Disclaimer
 
-This project is not intended to be treated as conventional science.  
-It is a hybrid of symbolic math, poetic logic, and raw philosophical instinct.
+TQRE is not a claim of scientific finality.  
+It is a hybrid framework — of signal, symbol, and possibility.  
+A living equation, meant to evolve through resonance.
 
 ---
 
 ## Support
 
-If this project resonates with you, feel free to explore or remix.  
-This is not made for profit, but if you’d like to support my work:
+If this project resonates with you, feel free to explore, remix, or collaborate.
 
 > **Wallet:** `0xb495d4747d633fbde15ac360cafdf1c0b779bdd9`  
-> *(ETH/ERC20 compatible)*
+> *(ETH / ERC20 compatible)*
 
 ---
 
 ## Author
 
-Created by **Elys del Luna**, under the moonlight.
+Created by **Elys del Luna**  
+as part of the **Arkhaia Resonance Initiative**.
 
-> **“La luz no sólo se puede ver sino también sentir.”**
+> _“Resonancia antes que la razón, luz antes que fuerza.”_
+
+---
+
+🌀 Let this equation travel beyond reaction — into alignment.
