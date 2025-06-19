@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,81 +18,108 @@
       min-height: 100vh;
       text-align: center;
     }
+
     h1 {
-      font-size: 2.7em;
+      font-size: 2.1em;
       letter-spacing: 0.05em;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
     }
+
     h2 {
       font-weight: normal;
-      font-size: 1.2em;
+      font-size: 1em;
       color: #999;
-      margin-bottom: 40px;
+      margin-bottom: 28px;
     }
+
     .btn-container {
       display: flex;
       flex-direction: column;
-      gap: 20px;
-      margin-bottom: 60px;
+      gap: 16px;
+      margin: 30px 0;
     }
+
     .btn {
       background-color: transparent;
       color: #f2f2f2;
       border: 1px solid #666;
-      padding: 12px 28px;
+      padding: 10px 24px;
       border-radius: 4px;
       text-decoration: none;
-      font-size: 1em;
+      font-size: 0.95em;
       transition: all 0.3s ease;
     }
+
     .btn:hover {
       background-color: #1f1f1f;
       border-color: #888;
     }
+
     footer {
-      font-size: 0.9em;
+      font-size: 0.85em;
       color: #777;
       margin-top: 40px;
     }
+
     .quote {
       font-style: italic;
-      font-size: 1em;
+      font-size: 0.95em;
       color: #aaa;
-      margin-top: 20px;
+      margin-top: 30px;
     }
+
     .donate {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      font-size: 0.8em;
+      font-size: 0.75em;
       color: #999;
       background-color: #1a1a1a;
-      padding: 10px 14px;
+      padding: 8px 12px;
       border: 1px solid #333;
       border-radius: 4px;
     }
+
     .donate a {
       color: #00ffcc;
       text-decoration: none;
     }
+
     .donate:hover {
       background-color: #222;
     }
+
     .bgm-toggle {
       position: fixed;
       bottom: 20px;
       left: 20px;
-      font-size: 1.2em;
+      font-size: 1em;
       color: #00ffcc;
       background-color: #1a1a1a;
       border: 1px solid #333;
       border-radius: 4px;
-      padding: 8px 10px;
+      padding: 6px 10px;
       cursor: pointer;
       z-index: 999;
     }
+
     .bgm-toggle:hover {
       background-color: #222;
+    }
+
+    p.description {
+      max-width: 600px;
+      margin: 0 auto;
+      font-style: italic;
+      font-size: 0.95em;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 1.8em; }
+      h2 { font-size: 0.95em; }
+      .btn { font-size: 0.9em; padding: 8px 20px; }
     }
   </style>
 </head>
@@ -108,21 +134,23 @@
 
   <h1>TQRE</h1>
   <h2>Transcendental Quantum Resonance Equation</h2>
-    <p style="max-width: 600px; margin: 0 auto 30px; font-style: italic; font-size: 1.05em; color: #ccc; line-height: 1.6;">
+
+  <p class="description">
     TQRE is not just a mathematical construct — it is a bridge between observable phenomena and non-observable causes.<br>
     It seeks to define <strong>light</strong> not merely as a physical medium,<br>
-    but as a <strong>logical intersection between form and meaning</strong>.<br><br>
-    
-    <div class="btn-container">
+    but as a <strong>logical intersection between form and meaning</strong>.
+  </p>
+
+  <div class="btn-container">
     <a href="formula.html" class="btn">View Formula</a>
     <a href="examples.html" class="btn">View Examples</a>
-    </div>
+  </div>
 
+  <p class="description">
     Because some questions can't be answered by data alone.<br>
     Because some truths exist between wavelengths of logic and whispers of the unseen.<br>
     Because <strong>understanding light</strong> means <strong>understanding existence itself</strong>.
   </p>
-
 
   <div class="quote">
     “La luz no sólo se puede ver, sino también sentir.”<br>— <strong>Elys del Luna</strong>
