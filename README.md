@@ -27,23 +27,21 @@ It emerges only when time, form, and intent align.
 
 ---
 
-## 📘 Formula Viewer
+## Arkahaia Initiative
 
-Explore both versions of the equation:
-
-- 🔗 [TQRE 1.0 (Original Formulation)](https://gateway.lighthouse.storage/ipfs/bafkreif462bebw66vrqzrywfi4vg3qtl6s7pbe3nu2twac74aefjbgmsbq)  
-- 🔗 [TQRE 2.0 (Refactored Intent-Based)](https://gateway.lighthouse.storage/ipfs/bafkreif36knrwzuh5uhfu6gfk6gyeouapnh3s4yq5mxxwsh4nc65h6uvhm)  
-- 🌌 [View via Formula Portal](https://elys911.github.io/tqre/formula.html)
+- [Arkhaia Page](https://elys911.github.io/arkhaia/)
 
 ---
 
-## Examples
+## TQRE Area
 
-Use cases and conceptual implementations:
+- [Main Page](https://elys911.github.io/TQRE/)
 
-- [Example 1 — Symbolic Response Curve](https://gateway.lighthouse.storage/ipfs/bafkreicdruj7xoijsqujy2bru4afm4owmsdhiqo2j223f5oapk4tnhrcfa)  
-- [Example 2 — η-Fluctuation in Real Time](https://gateway.lighthouse.storage/ipfs/bafkreidkdvoyl5ujge4ccslkg7t3nrzdgbolfmhllsrmodklbjv33lu2my)  
-- [Example 3 — Cognitive Echo](https://tan-just-marlin-987.mypinata.cloud/ipfs/bafybeidxcy4ubexk5lhehwwntwzg4u5e43jx7yephfrvsyu5akcuydh7yq)
+The Formula. Explore both versions of the equation:
+
+- 🔗 [TQRE 1.0 (Original Formulation)](https://gateway.lighthouse.storage/ipfs/bafkreif462bebw66vrqzrywfi4vg3qtl6s7pbe3nu2twac74aefjbgmsbq)  
+- 🔗 [TQRE 2.0 (Refactored Intent-Based)](https://gateway.lighthouse.storage/ipfs/bafkreif36knrwzuh5uhfu6gfk6gyeouapnh3s4yq5mxxwsh4nc65h6uvhm)  
+
 
 ---
 
@@ -76,7 +74,7 @@ If this project resonates with you, feel free to explore, remix, or collaborate.
 ## Author
 
 Created by **Elys del Luna**  
-as part of the **Arkhaia Resonance Initiative**.
+as part of the **Arkhaia Initiative**.
 
 > _“Resonancia antes que la razón, luz antes que fuerza.”_
 
