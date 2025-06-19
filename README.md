@@ -79,5 +79,3 @@ as part of the **Arkhaia Initiative**.
 > _“Resonancia antes que la razón, luz antes que fuerza.”_
 
 ---
-
-🌀 Let this equation travel beyond reaction — into alignment.
