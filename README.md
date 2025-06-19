@@ -27,7 +27,7 @@ It emerges only when time, form, and intent align.
 
 ---
 
-## Arkahaia Initiative
+## Arkhaia Archive
 
 - [Arkhaia Page](https://elys911.github.io/arkhaia/)
 
@@ -74,7 +74,7 @@ If this project resonates with you, feel free to explore, remix, or collaborate.
 ## Author
 
 Created by **Elys del Luna**  
-as part of the **Arkhaia Initiative**.
+Domain **Arkhaia Archive**.
 
 > _“Resonancia antes que la razón, luz antes que fuerza.”_
 
