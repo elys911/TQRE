@@ -32,10 +32,21 @@
       margin-bottom: 28px;
     }
 
+    p.description {
+      max-width: 600px;
+      margin: 0 auto;
+      font-style: italic;
+      font-size: 0.95em;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
     .btn-container {
       display: flex;
-      flex-direction: column;
-      gap: 16px;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
       margin: 30px 0;
     }
 
@@ -52,13 +63,8 @@
 
     .btn:hover {
       background-color: #1f1f1f;
-      border-color: #888;
-    }
-
-    footer {
-      font-size: 0.85em;
-      color: #777;
-      margin-top: 40px;
+      border-color: #00ffcc;
+      box-shadow: 0 0 12px rgba(0, 255, 204, 0.15);
     }
 
     .quote {
@@ -66,6 +72,12 @@
       font-size: 0.95em;
       color: #aaa;
       margin-top: 30px;
+    }
+
+    footer {
+      font-size: 0.85em;
+      color: #777;
+      margin-top: 40px;
     }
 
     .donate {
@@ -105,15 +117,6 @@
 
     .bgm-toggle:hover {
       background-color: #222;
-    }
-
-    p.description {
-      max-width: 600px;
-      margin: 0 auto;
-      font-style: italic;
-      font-size: 0.95em;
-      color: #ccc;
-      line-height: 1.6;
     }
 
     @media (max-width: 600px) {
@@ -157,7 +160,7 @@
   </div>
 
   <footer>
-    Si hoy no es útil, entonces mañana
+    Si hoy no es útil, entonces mañana. *Arkhaia Archive*
   </footer>
 
   <div class="donate">
