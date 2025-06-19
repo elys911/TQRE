@@ -40,7 +40,7 @@ It emerges only when time, form, and intent align.
 The Formula. Explore both versions of the equation:
 
 - 🔗 [TQRE 1.0 (Original Formulation)](https://gateway.lighthouse.storage/ipfs/bafkreif462bebw66vrqzrywfi4vg3qtl6s7pbe3nu2twac74aefjbgmsbq)  
-- 🔗 [TQRE 2.0 (Refactored Intent-Based)](https://gateway.lighthouse.storage/ipfs/bafkreif36knrwzuh5uhfu6gfk6gyeouapnh3s4yq5mxxwsh4nc65h6uvhm)  
+- 🔗 [TQRE 2.0 (Refactored Intent-Based)](https://gateway.lighthouse.storage/ipfs/bafkreiep37nxocfafltwllefzfv4hlvvivbbdicgtu6gytgprpxohgzcd4)  
 
 
 ---
