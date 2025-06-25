@@ -35,7 +35,7 @@ It emerges only when time, form, and intent align.
 
 ## TQRE Area
 
-- [Main Page](https://elys911.github.io/TQRE/)
+- [Main Page](https://arkhaia.pages.dev)
 
 The Formula. Explore both versions of the equation:
 
