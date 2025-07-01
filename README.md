@@ -7,7 +7,7 @@
 
 ## What is TQRE?
 
-TQRE is not merely a formula —  
+TQRE is not merely a formula,    
 it's an attempt to **capture transformation through intention**,  
 to map how systems don't just react, but resonate.
 
@@ -29,7 +29,7 @@ It emerges only when time, form, and intent align.
 
 ## Arkhaia Archive
 
-- [Arkhaia Page](https://elys911.github.io/arkhaia/)
+- [Arkhaia Page](arkhaia.space)
 
 ---
 
@@ -40,7 +40,7 @@ It emerges only when time, form, and intent align.
 The Formula. Explore both versions of the equation:
 
 - 🔗 [TQRE 1.0 (Original Formulation)](https://bafybeihms4n7t4tlgqx2nrquap46thol2lext35zp65o62r5556hqzs6ba.ipfs.w3s.link/)  
-- 🔗 [TQRE 2.0 (Refactored Intent-Based)](https://gateway.lighthouse.storage/ipfs/bafkreiep37nxocfafltwllefzfv4hlvvivbbdicgtu6gytgprpxohgzcd4)  
+- 🔗 [TQRE 2.0 (Refactored Intent-Based)](https://bafybeidzvpnmlcfrudh6ruee5qhbriq2mxfrg35crp3h2tytoyqweismca.ipfs.w3s.link/)  
 
 
 ---
@@ -74,7 +74,7 @@ If this project resonates with you, feel free to explore, remix, or collaborate.
 ## Author
 
 Created by **Elys del Luna**  
-Domain **Arkhaia Archive**.
+Perserved by **Arkhaia Archive**.
 
 > _“Resonancia antes que la razón, luz antes que fuerza.”_
 
