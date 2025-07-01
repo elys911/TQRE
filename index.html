@@ -88,6 +88,30 @@
       border-color: #00ffcc;
       box-shadow: 0 0 12px rgba(0, 255, 204, 0.15);
     }
+    
+    .top-buttons {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      gap: 12px;
+      z-index: 10;
+    }
+    
+    .main-text {
+      position: absolute;
+      top: 50%;
+      left: 40px;
+      transform: translateY(-50%);
+      text-align: left;
+      max-width: 600px;
+    }
+    
+    .main-text h1,
+    .main-text p,
+    .main-text .quote {
+      text-align: left;
+    }
 
     .quote {
       font-style: italic;
@@ -140,15 +164,23 @@
     .bgm-toggle:hover {
       background-color: #222;
     }
-
+    
     @media (max-width: 600px) {
-      h1 { font-size: 1.8em; }
-      h2 { font-size: 0.95em; }
-      .btn { font-size: 0.9em; padding: 8px 20px; }
-    }
+      .top-buttons {
+      flex-direction: column;
+      top: 12px;
+      right: 12px;
+      gap: 8px;
+      }
+
   </style>
 </head>
 <body>
+  <div class="top-buttons">
+    <a href="formula.html" class="btn">View Formula</a>
+    <a href="examples.html" class="btn">View Examples</a>
+  </div>
+  
   <video autoplay muted loop playsinline id="bg-video">
     <source src="341s.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -161,27 +193,23 @@
 
   <div class="bgm-toggle" onclick="toggleBGM()">🌙</div>
 
-  <h1>TQRE</h1>
-  <h2>Transcendental Quantum Resonance Equation</h2>
-
-  <p class="description">
-    TQRE is not just a mathematical construct — it is a bridge between observable phenomena and non-observable causes.<br>
-    It seeks to define <strong>light</strong> not merely as a physical medium,<br>
-    but as a <strong>logical intersection between form and meaning</strong>.
-  </p>
-
-  <div class="btn-container">
-    <a href="formula.html" class="btn">View Formula</a>
-    <a href="examples.html" class="btn">View Examples</a>
-  </div>
-
-  <p class="description">
-    Because some questions can't be answered by data alone.<br>
-    Because some truths exist between wavelengths of logic and whispers of the unseen.<br>
-  </p>
-
-  <div class="quote">
-    “La luz no sólo se puede ver, sino también sentir.”<br>— <strong>Elys del Luna</strong>
+  <div class="main-text">
+    <h1>Transcendental Quantum Resonance Equation</h1>
+    
+    <p class="description">
+      TQRE is not just a mathematical construct — it is a bridge between observable phenomena and non-observable causes.<br>
+        It seeks to define <strong>light</strong> not merely as a physical medium,<br>
+        but as a <strong>logical intersection between form and meaning</strong>.
+    </p>
+    
+    <p class="description">
+      Because some questions can't be answered by data alone.<br>
+      Because some truths exist between wavelengths of logic and whispers of the unseen.<br>
+    </p>
+    
+    <div class="quote">
+      “La luz no sólo se puede ver, sino también sentir.”<br>— <strong>Elys del Luna</strong>
+    </div>
   </div>
 
   <footer>
@@ -206,6 +234,25 @@
         toggleIcon.textContent = "🔇";
       }
     }
+    
+    @keyframes fadeSlideUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .fade-in {
+      opacity: 0;
+      animation: fadeSlideUp 1.2s ease-out forwards;
+    }
+    
+    <div class="top-buttons fade-in" style="animation-delay: 0.2s;"></div>
+    <div class="main-text fade-in" style="animation-delay: 0.6s;"></div>
   </script>
 
 </body>
